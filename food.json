@@ -1,0 +1,45 @@
+{
+  "foodItemName": "Rice",
+  "foodGroup": "Grains",
+  "description": "An item used for cooking.",
+  "nutritionalInformation": {
+    "calories": 130,
+    "macronutrients": {
+      "proteins": 2.7,
+      "fats": {
+        "saturated": 0.3,
+        "unsaturated": 0.7,
+        "trans": 0
+      },
+      "carbohydrates": 28,
+      "sugar": 0
+    },
+    "micronutrients": {
+      "vitamins": {
+        "A": 0,
+        "C": 0,
+        "D": 0
+      },
+      "minerals": {
+        "iron": 0.8,
+        "calcium": 10,
+        "potassium": 35
+      },
+      "otherNutrients": {
+        "fiber": 1.3
+      }
+    },
+    "sodium": 0,
+    "cholesterol": 0
+  },
+  "servingSize": "1 cup (195g)",
+  "allergens": [],
+  "ingredients": ["Rice"],
+  "preparationMethods": ["Boiled", "Steamed"],
+  "certifications": [],
+  "countryOfOrigin": "Various",
+  "brandOrManufacturer": "Various",
+  "dietaryRestrictions": ["Gluten-free", "Vegetarian", "Vegan"],
+  "healthBenefits": ["Good source of energy", "Low in fat", "Gluten-free"],
+  "bestPractices": "Store in a cool, dry place. Keep away from moisture."
+}
