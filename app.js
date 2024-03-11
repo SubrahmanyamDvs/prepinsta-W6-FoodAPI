@@ -12,15 +12,15 @@ app.get('/', (req, res) => {
 
 app.post('/save-food', async (req, res) => {
   try {
-    const rice = new FoodModel({
+    const food = new FoodModel({
       
     });
 
-    const savedRice = await rice.save();
-    console.log('Saved Rice:', savedRice);
-    res.json(savedRicce);  // Send the saved data as the response
+    const savedFood = await food.save();
+    console.log('Saved Food:', savedFood);
+    res.json(savedFood);  // Send the saved data as the response
   } catch (error) {
-    console.error('Error saving Rice:', error.message);
+    console.error('Error saving Food:', error.message);
     res.status(500).json({ error: 'Internal Server Error', message: error.message });
   }
 });
